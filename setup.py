@@ -8,4 +8,5 @@ setup(name='rajaongkir',
       author_email='mihfazhillah@gmail.com',
       license='GNU2',
       packages=['rajaongkir'],
-      zip_safe=False)
+      zip_safe=False,
+      install_requires = ["requests"])
